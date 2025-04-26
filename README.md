@@ -37,19 +37,19 @@ O projeto contempla os seguintes conteúdos do curso:
 1. Suba o banco de dados Oracle:
 
 ```bash
-docker-compose up -d oracle-db
+docker compose up -d oracle-db
 ```
 
 2. Após o banco estar pronto, execute a aplicação:
 
 ```bash
-docker-compose run --rm app
+docker compose run --rm app
 ```
 
 3. Para encerrar os containers:
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ---
@@ -64,7 +64,7 @@ docker-compose down
 ## Organização do Projeto
 
 ```
-gestao-agronegocio-python/
+controle-produtividade/
 ├── controle_perdas.py
 ├── Dockerfile
 ├── docker-compose.yml
