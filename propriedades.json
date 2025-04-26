@@ -1,0 +1,9 @@
+[
+    {
+        "nome": "Teste",
+        "hectares_plantados": 2000.0,
+        "toneladas_colhidas": 2.0,
+        "toneladas_perdidas": 1.0,
+        "percentual_perda": 33.33
+    }
+]
